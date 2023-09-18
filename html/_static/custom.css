@@ -1,0 +1,23 @@
+body { background: #5c1939; letter-spacing: 0.05em; }
+div.body { background-color: #f0f0f0; color: #444444; font-size: 94%; }
+div.footer { font-weight: bold; }
+div.sphinxsidebar h3, div.sphinxsidebar h4 { font-weight: bold; }
+div.body h1, div.body h2, div.body h3,
+div.body h4, div.body h5, div.body h6 {
+    border-top: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0;
+    color: #7f2750; background-color: #e6e6e6; font-weight: bold; }
+div.body h1 { padding: 8px 0 8px 10px; border-top: 0; }
+div.related { background-color: #701c41; font-weight: bold; }
+div.document { background-color: #7f2750; }
+pre { border-top: 1px solid #bbd8a5; border-bottom: 1px solid #bbd8a5; }
+div.code-block-caption {
+    border-top: 1px solid #bbd8a5; font-weight: bold;
+    background-color: #ddf2bf; color: #7f2750; }
+div.sphinxsidebar a { color: #e7b2cb; }
+div.sphinxsidebar input { border: 1px solid #e0afde; }
+a { color: #7f2750; }
+a:visited { color: #7f2750; }
+a.headerlink  { color: #7f2750; }
+a.headerlink:hover { background-color: #7f2750; }
+input { color: #7f2750; }
+code { padding: 0.2em; background-color: #e6e6e6; }

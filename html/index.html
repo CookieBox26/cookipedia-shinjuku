@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lang="ja" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome to Cookipedia.Shinjuku &#8212; Cookipedia.Shinjuku  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=514cf933" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=3ee9a021" />
+    
+    <script src="_static/documentation_options.js?v=c033477b"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/translations.js?v=4dbe4bdc"></script>
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
+    <link rel="next" title="山手線" href="articles/hoge.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="articles/hoge.html" title="山手線"
+             accesskey="N">次へ</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Cookipedia.Shinjuku  ドキュメント</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Welcome to Cookipedia.Shinjuku</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="welcome-to-cookipedia-shinjuku">
+<h1>Welcome to Cookipedia.Shinjuku<a class="headerlink" href="#welcome-to-cookipedia-shinjuku" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="articles/hoge.html">山手線</a></li>
+</ul>
+</div>
+<section id="index">
+<h2>Index<a class="headerlink" href="#index" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
+</ul>
+</section>
+<section id="id1">
+<h2>このドキュメントの作り方<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">ディレクトリ名を決めて <code class="docutils literal notranslate"><span class="pre">sphinx-quickstart</span> <span class="pre">DIRNAME</span></code> します。</div>
+<div class="line">質問されるので適宜回答します。</div>
+<div class="line">ディレクトリができたらそこに移動します。</div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sphinx-quickstart cookipedia-shinjuku</span>
+<span class="go">&gt; Separate source and build directories (y/n) [n]: n</span>
+<span class="go">&gt; Project name: Cookipedia.Shinjuku</span>
+<span class="go">&gt; Author name(s): Chihiro Mihara</span>
+<span class="go">&gt; Project release []:</span>
+<span class="go">&gt; Project language [en]: ja</span>
+
+<span class="go">cd cookipedia-shinjuku/</span>
+</pre></div>
+</div>
+<div class="line-block">
+<div class="line">生成された <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> を編集します。</div>
+<div class="line">生成された <code class="docutils literal notranslate"><span class="pre">_static/</span></code> 以下に <code class="docutils literal notranslate"><span class="pre">custom.css</span></code> を作成して css をカスタマイズします。</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">conf.py</span><a class="headerlink" href="#id2" title="Link to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;classic&#39;</span>
+<span class="n">html_css_files</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;custom.css&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">_static/custom.css</span><a class="headerlink" href="#id3" title="Link to this code">¶</a></div>
+<div class="highlight-css notranslate"><div class="highlight"><pre><span></span><span class="nt">body</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="mh">#5c1939</span><span class="p">;</span><span class="w"> </span><span class="k">letter-spacing</span><span class="p">:</span><span class="w"> </span><span class="mf">0.05</span><span class="kt">em</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#f0f0f0</span><span class="p">;</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#444444</span><span class="p">;</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">94</span><span class="kt">%</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">footer</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="kc">bold</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">sphinxsidebar</span><span class="w"> </span><span class="nt">h3</span><span class="o">,</span><span class="w"> </span><span class="nt">div</span><span class="p">.</span><span class="nc">sphinxsidebar</span><span class="w"> </span><span class="nt">h4</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="kc">bold</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="nt">h1</span><span class="o">,</span><span class="w"> </span><span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="nt">h2</span><span class="o">,</span><span class="w"> </span><span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="nt">h3</span><span class="o">,</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="nt">h4</span><span class="o">,</span><span class="w"> </span><span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="nt">h5</span><span class="o">,</span><span class="w"> </span><span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="nt">h6</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">border-top</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#c0c0c0</span><span class="p">;</span><span class="w"> </span><span class="k">border-bottom</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#c0c0c0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#e6e6e6</span><span class="p">;</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="kc">bold</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">body</span><span class="w"> </span><span class="nt">h1</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="kt">px</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mi">8</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="k">border-top</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">related</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#701c41</span><span class="p">;</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="kc">bold</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">document</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">pre</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">border-top</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#bbd8a5</span><span class="p">;</span><span class="w"> </span><span class="k">border-bottom</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#bbd8a5</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">code-block-caption</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">border-top</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#bbd8a5</span><span class="p">;</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="kc">bold</span><span class="p">;</span>
+<span class="w">    </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#ddf2bf</span><span class="p">;</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">sphinxsidebar</span><span class="w"> </span><span class="nt">a</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#e7b2cb</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">div</span><span class="p">.</span><span class="nc">sphinxsidebar</span><span class="w"> </span><span class="nt">input</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#e0afde</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">a</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">a</span><span class="p">:</span><span class="nd">visited</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">a</span><span class="p">.</span><span class="nc">headerlink</span><span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">a</span><span class="p">.</span><span class="nc">headerlink</span><span class="p">:</span><span class="nd">hover</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">input</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#7f2750</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="nt">code</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mf">0.2</span><span class="kt">em</span><span class="p">;</span><span class="w"> </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#e6e6e6</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="line-block">
+<div class="line">このようにして <code class="docutils literal notranslate"><span class="pre">./make.bat</span> <span class="pre">html</span></code> すると <code class="docutils literal notranslate"><span class="pre">_build/html/index.html</span></code> が生成されます。</div>
+<div class="line">同コマンドでリビルドできますが、カスタム css を変更した場合は先に <code class="docutils literal notranslate"><span class="pre">./make.bat</span> <span class="pre">clean</span></code> する必要があります。</div>
+<div class="line">以下のように <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> を編集し <code class="docutils literal notranslate"><span class="pre">articles/hoge.rst</span></code> を追加して再実行するとページが増えます。</div>
+<div class="line">索引にも反映されます。</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id4">
+<div class="code-block-caption"><span class="caption-text">index.rst</span><a class="headerlink" href="#id4" title="Link to this code">¶</a></div>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="gh">Welcome to Cookipedia.Shinjuku</span>
+<span class="gh">==============================</span>
+
+<span class="p">..</span> <span class="ow">toctree</span><span class="p">::</span>
+   <span class="nc">:maxdepth:</span> 1
+
+   articles/hoge.rst
+
+<span class="gh">Index</span>
+<span class="gh">-----</span>
+
+<span class="m">*</span> <span class="na">:ref:</span><span class="nv">`genindex`</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id5">
+<div class="code-block-caption"><span class="caption-text">articles/hoge.rst</span><a class="headerlink" href="#id5" title="Link to this code">¶</a></div>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">index</span><span class="p">::</span>
+   single: や; 山手線
+
+<span class="gh">山手線</span>
+<span class="gh">======</span>
+
+<span class="p">..</span> <span class="ow">index</span><span class="p">::</span>
+   single: し; 新宿駅
+
+<span class="gh">新宿駅</span>
+<span class="gh">------</span>
+
+乗降客数が世界一多い。
+
+
+<span class="p">..</span> <span class="ow">index</span><span class="p">::</span>
+   single: た; 高田馬場駅
+
+<span class="gh">高田馬場駅</span>
+<span class="gh">----------</span>
+
+早稲田大学に近い。
+
+<span class="p">..</span> <span class="ow">index</span><span class="p">::</span>
+   single: た; 高輪ゲートウェイ駅
+
+<span class="gh">高輪ゲートウェイ駅</span>
+<span class="gh">------------------</span>
+
+新しい。
+</pre></div>
+</div>
+</div>
+<div class="line-block">
+<div class="line">サイドバーからドキュメント内を検索することもできます。</div>
+<div class="line">しかし、「早稲田」では検索できますが「早稲田大学」では検索できません。</div>
+<div class="line">なので <a class="reference external" href="https://r-square.net/sphinx/03_sphinx_mecab.html">Sphinx の検索インデックス作成でMecabが使われるようにする</a> を参考に MeCab を使います。</div>
+<div class="line">そうすると「早稲田大学」で検索できるようになります。が、「早稲田」では検索できなくなります。</div>
+<div class="line">また、GitHub Actions にビルドさせたいならこれをやると面倒になると思います (のでやめました)。</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id6">
+<div class="code-block-caption"><span class="caption-text">conf.py</span><a class="headerlink" href="#id6" title="Link to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_search_language</span> <span class="o">=</span> <span class="s1">&#39;ja&#39;</span>
+<span class="n">html_search_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;sphinx.search.ja.MecabSplitter&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;dic_enc&#39;</span><span class="p">:</span> <span class="s1">&#39;utf-8&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;dict&#39;</span><span class="p">:</span> <span class="s1">&#39;&quot;C:</span><span class="se">\\</span><span class="s1">Program Files</span><span class="se">\\</span><span class="s1">MeCab</span><span class="se">\\</span><span class="s1">dic</span><span class="se">\\</span><span class="s1">ipadic&quot;&#39;</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="#">目次</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Welcome to Cookipedia.Shinjuku</a><ul>
+<li><a class="reference internal" href="#index">Index</a></li>
+<li><a class="reference internal" href="#id1">このドキュメントの作り方</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>次のトピックへ</h4>
+    <p class="topless"><a href="articles/hoge.html"
+                          title="次の章へ">山手線</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>このページ</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">ソースコードを表示</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="articles/hoge.html" title="山手線"
+             >次へ</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Cookipedia.Shinjuku  ドキュメント</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Welcome to Cookipedia.Shinjuku</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; 著作権 2023, Chihiro Mihara.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+  </body>
+</html>
